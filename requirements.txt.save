@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+torch
+transformers
+git add requirements.txt
+git commit -m "📦 Add requirements.txt with model dependencies"
+git push origin emotion-model
+
