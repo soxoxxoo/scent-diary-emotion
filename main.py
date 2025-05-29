@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+<<<<<<< HEAD
 from pydantic import BaseModel
 
 app = FastAPI(
@@ -16,3 +17,9 @@ def analyze(diary: DiaryInput):
         "sentiment": "중립",
         "tags": ["clean", "mild", "musky"]
     }
+=======
+from app.routers import emotion_router
+
+app = FastAPI()
+app.include_router(emotion_router.router)
+>>>>>>> feature/emotion-api

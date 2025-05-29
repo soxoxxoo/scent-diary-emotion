@@ -1,4 +1,9 @@
 fastapi
 uvicorn
+<<<<<<< HEAD
 firebase-admin
 python-dotenv
+=======
+torch
+transformers
+>>>>>>> feature/emotion-api
